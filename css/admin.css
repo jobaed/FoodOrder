@@ -1,0 +1,125 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+  /* border: 1px solid black; */
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+.clearfix {
+  float: none;
+  clear: both;
+}
+.tbl-full {
+  width: 100%;
+}
+.tbl-30 {
+  width: 40%;
+}
+table tr th {
+  border-bottom: 1px solid gray;
+  padding: 1%;
+  text-align: left;
+}
+table tr td {
+  padding: 1%;
+}
+.btn-primary {
+  background-color: #1e90ff;
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #3742fa;
+  transition: all 2s;
+  border-radius: 5px;
+}
+.btn-secondary {
+  background-color: #eccc68;
+  padding: 1%;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-secondary:hover {
+  background-color: #ffa502;
+  transition: all 1s;
+  border-radius: 5px;
+}
+.btn-danger {
+  background-color: #ff6b81;
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-danger:hover {
+  background-color: #ff4757;
+  transition: all 2s;
+  border-radius: 5px;
+}
+.success {
+  background-color: #1e90ff;
+  padding: 1%;
+  color: white;
+}
+.danger {
+  background-color: #ff4757;
+  padding: 1%;
+  color: white;
+}
+/* CSS For Menu */
+.menu {
+  border-bottom: 1px solid gray;
+}
+.menu ul {
+  list-style-type: none;
+}
+.menu ul li {
+  display: inline;
+  padding: 1%;
+}
+.menu ul li a {
+  color: #ff6b81;
+  font-weight: bold;
+  text-decoration: none;
+}
+.menu ul li a:hover {
+  color: #ff4757;
+}
+
+/* Css For main content */
+.main-content {
+  background-color: #f1f2f6;
+  padding: 3% 0;
+}
+.col-4 {
+  width: 18%;
+  background-color: white;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+}
+
+/* Css For  Footer */
+.footer {
+  background-color: #ff4757;
+  color: wheat;
+}
+
+/* Css For Login Page */
+.login {
+  width: 20%;
+  border: 1px solid gray;
+  margin: 10% auto;
+  padding: 2%;
+}
